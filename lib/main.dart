@@ -87,22 +87,24 @@ class _HomeState extends State<Home> {
                               prefixText: "R\$"),
                           style: TextStyle(color: Colors.amber, fontSize: 25),
                         ),
+                        Divider(),
                         TextField(
                           decoration: InputDecoration(
                               labelText: "Dolar",
                               labelStyle:
                                   TextStyle(color: Colors.amber, fontSize: 20),
                               border: OutlineInputBorder(),
-                              prefixText: "R\$"),
+                              prefixText: "US\$"),
                           style: TextStyle(color: Colors.amber, fontSize: 25),
                         ),
+                        Divider(),
                         TextField(
                           decoration: InputDecoration(
-                              labelText: "Euro",
+                              labelText: "Euros",
                               labelStyle:
                                   TextStyle(color: Colors.amber, fontSize: 20),
                               border: OutlineInputBorder(),
-                              prefixText: "R\$"),
+                              prefixText: "€\$"),
                           style: TextStyle(color: Colors.amber, fontSize: 25),
                         ),
                       ],
